@@ -1,0 +1,102 @@
+# Node.js dependencies
+node_modules/
+
+# npm logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Angular build output
+/dist/
+.tmp/
+.out-tsc/
+
+# Angular IDE/Editor settings
+/.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Java build output
+target/
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+
+# Eclipse specific
+.project
+.classpath
+.settings/
+
+# Spring Boot specific
+*.log
+*.jar
+*.war
+*.ear
+*.class
+spring-boot-devtools/
+*.properties
+*.yml
+
+# Maven specific
+/.mvn
+/mvnw
+/mvnw.cmd
+/.idea
+/target/
+
+# Gradle specific
+.gradle/
+build/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+
+# VS Code settings (Optional, if using VS Code)
+.vscode/
+
+# Sensitive files (Optional - if any)
+application.properties
+application.yml
+
+# Jupyter Notebook / Python files
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+
+# Other temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Coverage reports
+coverage/
+
+# Logs
+*.log
+
+# Generated directories
+generated/
+
+# Docker files
+.docker/
+
+# Files created by tools such as Webpack, Babel, and others
+*.map
+*.tsbuildinfo
+
+# Optional: Ignore other IDE and tool-specific files (e.g., for WebStorm, NetBeans, etc.)
+.idea/
+
+.angular/
+
+dist/
+
+*/Starter-Kit/*
