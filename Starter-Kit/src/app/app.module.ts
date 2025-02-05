@@ -39,7 +39,6 @@ import { RegisterComponent } from './register';
 import { SocialSigninComponent } from './social-signin/social-signin.component';
 import { LoginComponent } from './login';
 
-import { ChangelogComponent } from './changelog/changelog.component';
 
 import { NavbarService } from './_services/navbar.service';
 import { VerticalnavComponent } from './_layout/navigation/verticalnav/verticalnav.component';
@@ -107,7 +106,6 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
         RegisterComponent,
         SocialSigninComponent,
         LoginComponent,
-        ChangelogComponent,
         VerticalnavComponent ,
         HorizontalnavComponent ,
         CustomizerComponent,

@@ -4,7 +4,8 @@ import { PrivateLayoutComponent } from './_layout/private-layout/private-layout.
 import { AuthGuard } from './_guards/auth.guard';
 import { RegisterComponent } from './register';
 import { LoginComponent } from './login';
-import { ChangelogComponent } from './changelog/changelog.component';
+import { PlaceholderComponent } from './_components/placeholder/placeholder.component';
+
 
 const appRoutes: Routes = [
   // Public layout
@@ -23,7 +24,7 @@ const appRoutes: Routes = [
     component: PrivateLayoutComponent,
     children: [
       { path: 'logout', component: LoginComponent, canActivate: [AuthGuard] },
-      { path: 'changelog', component: ChangelogComponent, canActivate: [AuthGuard] },
+      { path: 'placeholder', component: PlaceholderComponent, canActivate: [AuthGuard] },
     ],
   },
   // otherwise redirect to home

@@ -51,7 +51,7 @@ export class LoginComponent implements OnInit {
             .then(res => {
                 this.setUserInStorage(res);
                 localStorage.removeItem('currentLayoutStyle');
-                let returnUrl = '/dashboard/sales';
+                let returnUrl = '/placeholder';
                 if (this.returnUrl) {
                   returnUrl = this.returnUrl;
                 }
